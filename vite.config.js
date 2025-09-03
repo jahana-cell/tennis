@@ -1,7 +1,9 @@
-import { defineConfig } from 'vite' // This line was missing
+import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  // This MUST be '/' for your custom domain
   base: '/',
 })
