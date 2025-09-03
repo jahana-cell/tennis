@@ -1,0 +1,6 @@
+// package.json
+{
+  "name": "tennis",
+  "homepage": "https://tennis.growsharecapital.com", // Must match your custom domain exactly
+  // ...
+}
